@@ -47,7 +47,7 @@ function addTarget() {
     addImg(targets, curr);
 
     prevTargetId = Number(targets[curr].dataset.id);
-  }, 5000);
+  }, 1000);
 
   // кнопка остановки игры и автоматическая перезагрузка страницы
   function stopGame(interval) {
