@@ -3,7 +3,7 @@
 ### Перемещение элемента
 
 [![DOM](https://github.com/soul0nsky/dom/actions/workflows/main.yml/badge.svg)](https://github.com/soul0nsky/dom/actions/workflows/main.yml)
-
+  
 [![Build status](https://ci.appveyor.com/api/projects/status/2rib64ax0re3y6ma?svg=true)](https://ci.appveyor.com/project/soul0nsky/dom)
 
 #### Легенда
