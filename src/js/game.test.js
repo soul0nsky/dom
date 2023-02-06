@@ -1,7 +1,7 @@
 // import {
 //   onLoad,
 // } from './runGame';
-
+//! тест заглушка для appveyor и actions
 describe('Game', () => {
   const user = 10;
   const field = 16;
@@ -13,9 +13,5 @@ describe('Game', () => {
     test(' cells', () => {
       expect(user).toBe(10);
     });
-    // test('death player', () => {
-    //   userChar.health = 0;
-    //   expect(userChar.health).toBeFalsy();
-    // });
   });
 });
