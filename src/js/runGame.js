@@ -1,4 +1,5 @@
 import endGame from './endGame';
+import gobImg from '../img/goblin.png';
 
 function onLoad() {
   const field = document.querySelector('.field');
@@ -16,7 +17,7 @@ function onLoad() {
 function addImg(targetsArr, curr) {
   const img = document.createElement('img');
   img.classList.add('img-target');
-  img.src = '../pic/goblin.png'; // ../src/img/goblin.png ./img/goblin.png goblin.png
+  img.src = gobImg; // ../src/img/goblin.png ./img/goblin.png goblin.png
   targetsArr[curr].appendChild(img);
 }
 
