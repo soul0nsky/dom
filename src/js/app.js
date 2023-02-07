@@ -12,6 +12,7 @@ function onLoad() {
     }
   }
 }
+document.addEventListener('DOMContentLoaded', onLoad);
 
 function addImg(targetsArr, curr) {
   const img = document.createElement('img');
@@ -72,5 +73,3 @@ function addTarget() {
 }
 
 addTarget();
-
-document.addEventListener('DOMContentLoaded', onLoad);
