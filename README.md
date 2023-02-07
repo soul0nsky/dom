@@ -6,8 +6,9 @@
   
 [![Build status](https://ci.appveyor.com/api/projects/status/2rib64ax0re3y6ma?svg=true)](https://ci.appveyor.com/project/soul0nsky/dom)
 
+  https://soul0nsky.github.io/dom/
 #### Легенда
-  
+
 Вы решили развлечься и реализовать некое подобие игры, где гномы (или другие существа), выскакивают из "отверстий" и по ним нужно бить молотком:
 
 ![](./pic/GracefulMiniatureBustard-small.gif)
