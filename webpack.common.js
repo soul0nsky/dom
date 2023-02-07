@@ -3,6 +3,7 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
+  devtool: 'source-map',
   target: 'web',
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -32,16 +33,8 @@ module.exports = {
         ],
       },
       {
-        test: /\.svg$/i,
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: 'asset/resource',
-      },
-      {
-        test: /\.(png|jpg|gif)$/i,
-        use: [
-          {
-            loader: 'url-loader',
-          },
-        ],
       },
     ],
   },
